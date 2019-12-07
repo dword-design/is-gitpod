@@ -1,0 +1,34 @@
+{
+  "name": "is-gitpod",
+  "version": "1.0.0",
+  "description": "Checks if we are in Gitpod",
+  "bugs": {
+    "url": "https://github.com/dword-design/is-gitpod/issues"
+  },
+  "repository": "dword-design/is-gitpod.git",
+  "license": "MIT",
+  "author": "dword <sebastianlandw@gmail.com>",
+  "contributors": [
+    "Renovate Bot (http://renovatebot.com)",
+    "dword-design (http://www.dword-design.de)"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "bin": {
+    "is-gitpod": "./dist/cli.js"
+  },
+  "scripts": {
+    "prepublishOnly": "base-node build",
+    "start": "base-node start",
+    "test": "base-node test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@dword-design/base-node": "^1.2.0",
+    "expect": "^24.9.0",
+    "with-local-tmp-dir": "^2.2.3"
+  },
+  "maintainers": []
+}
