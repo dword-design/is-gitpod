@@ -816,9 +816,9 @@
     tinycolor2 "^1.4.1"
 
 "@dword-design/json-schema-package@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@dword-design/json-schema-package/-/json-schema-package-1.0.3.tgz#1668b64225384666d3cecf30002c821efcddf069"
-  integrity sha512-8/L1fm+7TXFtdqSe0vVzyTkTd1TRlvCX31ai6NBSnxMU/M1vb3bzIH3JXhu5FI374YXp6aDXibx86aehf8dFEw==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@dword-design/json-schema-package/-/json-schema-package-1.0.4.tgz#dcd5b5be260d778f3215cf9e41d41819cf0b176b"
+  integrity sha512-PvdI1hEtOdiPDOvjHhrvdHufyp77tLDaP1Vp3fXuBGsOGTnQUY/Q0kruXgQYhiJTlaQHybnXaCFtsqwB5JWo4Q==
   dependencies:
     package-name-regex "^1.0.1"
     stable-version-regex "^1.0.1"
@@ -1358,6 +1358,7 @@ chardet@^0.7.0:
 
 chdir@dword-design/node-chdir#fork:
   version "0.0.0"
+  uid "55004473579e2b8d293ced5410af5948793971b6"
   resolved "https://codeload.github.com/dword-design/node-chdir/tar.gz/55004473579e2b8d293ced5410af5948793971b6"
 
 child-process-promise@^2.2.1:
@@ -1726,6 +1727,7 @@ delegates@^1.0.0:
 
 depcheck@dword-design/depcheck#fork:
   version "0.0.1"
+  uid "9947160b51e73cadbd92716544f758ab07f215cd"
   resolved "https://codeload.github.com/dword-design/depcheck/tar.gz/9947160b51e73cadbd92716544f758ab07f215cd"
   dependencies:
     "@babel/parser" "^7.6.4"
