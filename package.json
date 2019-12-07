@@ -1,6 +1,6 @@
 {
   "name": "is-gitpod",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks if we are in Gitpod",
   "bugs": {
     "url": "https://github.com/dword-design/is-gitpod/issues"
