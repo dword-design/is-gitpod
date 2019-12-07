@@ -763,9 +763,9 @@
     "@dword-design/base" "^3.0.0"
 
 "@dword-design/base@^3.0.0":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-3.1.1.tgz#8c333b03d6c1d4cbc1a0544b740748fd94295fb1"
-  integrity sha512-aOexq0XWY1SIu5fI7TE9tRKn57VRGPeqrpdr9+lxyNq8+/btbIF2CHXf4Ps+tOIjoFbl63aRC8BBOi1l1grHDw==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-3.1.2.tgz#c8b1c71d74e6662e9886bec19947976f517dd0f3"
+  integrity sha512-0MYSu1PSNiKiw7dhxBcUVcX2VxyGABNxQqhM/eigcjxiuBr+Sa+Egf1AxVe+VyAtgOWRw6WOtE4l86NF+h0SNw==
   dependencies:
     "@babel/cli" "^7.6.4"
     "@babel/core" "^7.6.4"
@@ -789,7 +789,6 @@
     pre-commit "^1.2.2"
     projectz "^1.12.0"
     safe-readfile "^1.0.2"
-    safe-require "^1.0.3"
     spawn-wrap "^1.4.3"
 
 "@dword-design/eslint-config@^1.0.0":
@@ -4227,11 +4226,6 @@ safe-regex@^1.1.0:
   integrity sha1-QKNmnzsHfR6UPURinhV91IAjvy4=
   dependencies:
     ret "~0.1.10"
-
-safe-require@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/safe-require/-/safe-require-1.0.3.tgz#6ec319ed10209b1d12c7a1449b79d46d7f4f914b"
-  integrity sha1-bsMZ7RAgmx0Sx6FEm3nUbX9PkUs=
 
 safefs@^5.3.0, safefs@^5.4.0:
   version "5.4.0"
