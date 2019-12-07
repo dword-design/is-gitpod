@@ -28,12 +28,20 @@ Checks if we are in Gitpod
 <h2>Install</h2>
 
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
+<h4>Install Globally</h4>
+<ul>
+<li>Install: <code>npm install --global is-gitpod</code></li>
+<li>Executable: <code>is-gitpod</code></li>
+</ul>
+<h4>Install Locally</h4>
 <ul>
 <li>Install: <code>npm install --save is-gitpod</code></li>
+<li>Executable: <code>npx is-gitpod</code></li>
 <li>Require: <code>require('is-gitpod')</code></li>
 </ul>
 
 <!-- /INSTALL -->
+
 
 <h2>CLI Usage</h2>
 The cli script `is-gitpod` either does nothing or fails with exit code 1.
