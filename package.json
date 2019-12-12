@@ -8,10 +8,6 @@
   "repository": "dword-design/is-gitpod",
   "license": "MIT",
   "author": "dword <sebastianlandw@gmail.com>",
-  "contributors": [
-    "Renovate Bot (http://renovatebot.com)",
-    "dword-design (http://www.dword-design.de)"
-  ],
   "files": [
     "dist"
   ],
@@ -20,15 +16,23 @@
     "is-gitpod": "./dist/cli.js"
   },
   "scripts": {
-    "prepublishOnly": "base-node build",
-    "start": "base-node start",
-    "test": "base-node test"
+    "prepublishOnly": "base build",
+    "start": "base start",
+    "test": "base test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "child-process-promise": "^2.2.1"
+  },
   "devDependencies": {
-    "@dword-design/base-node": "^1.2.0",
+    "@dword-design/base": "^3.4.4",
+    "@dword-design/functions": "^2.2.2",
     "expect": "^24.9.0",
+    "fs-extra": "^8.1.0",
     "with-local-tmp-dir": "^2.2.3"
   },
+  "contributors": [
+    "Renovate Bot (http://renovatebot.com)",
+    "dword-design (http://www.dword-design.de)"
+  ],
   "maintainers": []
 }

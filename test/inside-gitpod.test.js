@@ -1,7 +1,7 @@
-import { spawn } from 'child_process'
+import { spawn } from 'child-process-promise'
 import getModifiedPath from './get-modified-path'
 import withLocalTmpDir from 'with-local-tmp-dir'
-import { outputFile, chmod } from 'fs'
+import { outputFile, chmod } from 'fs-extra'
 import expect from 'expect'
 
 export const it = () => withLocalTmpDir(async () => {
