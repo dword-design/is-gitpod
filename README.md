@@ -37,7 +37,8 @@ Checks if we are in Gitpod
 <ul>
 <li>Install: <code>npm install --save is-gitpod</code></li>
 <li>Executable: <code>npx is-gitpod</code></li>
-<li>Require: <code>require('is-gitpod')</code></li>
+<li>Import: <code>import * as pkg from ('is-gitpod')</code></li>
+<li>Require: <code>const pkg = require('is-gitpod')</code></li>
 </ul>
 
 <!-- /INSTALL -->
@@ -65,7 +66,7 @@ const result = await isGitpod()
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; dword</li></ul>
+<ul><li>Copyright &copy; Sebastian Landwehr</li></ul>
 
 and licensed under:
 

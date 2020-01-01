@@ -2,12 +2,9 @@
   "name": "is-gitpod",
   "version": "1.0.4",
   "description": "Checks if we are in Gitpod",
-  "bugs": {
-    "url": "https://github.com/dword-design/is-gitpod/issues"
-  },
   "repository": "dword-design/is-gitpod",
   "license": "MIT",
-  "author": "dword <sebastianlandw@gmail.com>",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
   "files": [
     "dist"
   ],
@@ -24,15 +21,10 @@
     "child-process-promise": "^2.2.1"
   },
   "devDependencies": {
-    "@dword-design/base": "^3.4.4",
+    "@dword-design/base": "^4.0.0",
     "@dword-design/functions": "^2.2.2",
     "expect": "^24.9.0",
     "fs-extra": "^8.1.0",
     "with-local-tmp-dir": "^2.2.3"
-  },
-  "contributors": [
-    "Renovate Bot (http://renovatebot.com)",
-    "dword-design (http://www.dword-design.de)"
-  ],
-  "maintainers": []
+  }
 }
