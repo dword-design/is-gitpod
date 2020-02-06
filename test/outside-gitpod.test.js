@@ -1,6 +1,5 @@
 import { spawn } from 'child-process-promise'
 import getModifiedPath from './get-modified-path'
-import expect from 'expect'
 
 export const it = async () => {
   let stdout
