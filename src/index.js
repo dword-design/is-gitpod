@@ -1,8 +1,8 @@
-import execa from 'execa'
+import which from 'which'
 
 export default async () => {
   try {
-    await execa.command('which gp')
+    await which('gp')
   } catch (error) {
     return false
   }
