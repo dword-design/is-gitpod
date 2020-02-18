@@ -1,8 +1,8 @@
-import { spawn } from 'child-process-promise'
+import execa from 'execa'
 
 export default async () => {
   try {
-    await spawn('which', ['gp'])
+    await execa.command('which gp')
   } catch (error) {
     return false
   }

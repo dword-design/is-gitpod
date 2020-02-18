@@ -1,57 +1,43 @@
 <!-- TITLE/ -->
-
-<h1>is-gitpod</h1>
-
+# is-gitpod
 <!-- /TITLE -->
 
-
 <!-- BADGES/ -->
+[![NPM version](https://img.shields.io/npm/v/is-gitpod.svg)](https://npmjs.org/package/is-gitpod)
+![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
 
-<span class="badge-npmversion"><a href="https://npmjs.org/package/is-gitpod" title="View this project on NPM"><img src="https://img.shields.io/npm/v/is-gitpod.svg" alt="NPM version" /></a></span>
-<span class="badge-travisci"><a href="http://travis-ci.org/dword-design/is-gitpod" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/dword-design/is-gitpod/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-coveralls"><a href="https://coveralls.io/r/dword-design/is-gitpod" title="View this project's coverage on Coveralls"><img src="https://img.shields.io/coveralls/dword-design/is-gitpod.svg" alt="Coveralls Coverage Status" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/dword-design/is-gitpod" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/dword-design/is-gitpod.svg" alt="Dependency Status" /></a></span>
-<span class="badge-shields"><a href="https://img.shields.io/badge/renovate-enabled-brightgreen.svg"><img src="https://img.shields.io/badge/renovate-enabled-brightgreen.svg" /></a></span>
+[![Build status](https://img.shields.io/github/workflow/status/dword-design/is-gitpod/build)](https://github.com/dword-design/is-gitpod/actions)
+[![Coverage status](https://img.shields.io/coveralls/dword-design/is-gitpod)](https://coveralls.io/github/dword-design/is-gitpod)
+[![Dependency status](https://img.shields.io/david/dword-design/is-gitpod)](https://david-dm.org/dword-design/is-gitpod)
+![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dword-design/is-gitpod)
 <!-- /BADGES -->
 
-
 <!-- DESCRIPTION/ -->
-
 Checks if we are in Gitpod
-
 <!-- /DESCRIPTION -->
 
-
 <!-- INSTALL/ -->
+# Install
 
-<h2>Install</h2>
+```bash
+# NPM
+$ npm install is-gitpod
 
-<a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
-<h4>Install Globally</h4>
-<ul>
-<li>Install: <code>npm install --global is-gitpod</code></li>
-<li>Executable: <code>is-gitpod</code></li>
-</ul>
-<h4>Install Locally</h4>
-<ul>
-<li>Install: <code>npm install --save is-gitpod</code></li>
-<li>Executable: <code>npx is-gitpod</code></li>
-<li>Import: <code>import * as pkg from ('is-gitpod')</code></li>
-<li>Require: <code>const pkg = require('is-gitpod')</code></li>
-</ul>
-
+# Yarn
+$ yarn add is-gitpod
+```
 <!-- /INSTALL -->
 
-
-<h2>CLI Usage</h2>
+# CLI Usage
 The cli script `is-gitpod` either does nothing or fails with exit code 1.
 
 ```bash
 $ is-gitpod
 ```
 
-<h2>API Usage</h2>
+# API Usage
 
 ```js
 import isGitpod from 'is-gitpod'
@@ -61,15 +47,13 @@ const result = await isGitpod()
 ```
 
 <!-- LICENSE/ -->
-
-<h2>License</h2>
+# License
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; Sebastian Landwehr</li></ul>
+Copyright &copy; Sebastian Landwehr <info@dword-design.de>
 
 and licensed under:
 
-<ul><li><a href="http://spdx.org/licenses/MIT.html">MIT License</a></li></ul>
-
+[MIT License](https://opensource.org/licenses/MIT)
 <!-- /LICENSE -->
