@@ -30,14 +30,14 @@ $ yarn add is-gitpod
 ```
 <!-- /INSTALL -->
 
-# CLI Usage
+## CLI Usage
 The cli script `is-gitpod` either does nothing or fails with exit code 1.
 
 ```bash
 $ is-gitpod
 ```
 
-# API Usage
+## API Usage
 
 ```js
 import isGitpod from 'is-gitpod'
