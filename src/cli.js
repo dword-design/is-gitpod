@@ -3,7 +3,7 @@
 import api from '.'
 
 (async () => {
-  if (!await api()) {
+  if (!(await api())) {
     process.exit(1)
   }
 })()

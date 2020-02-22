@@ -4,7 +4,10 @@ export default async () => {
   try {
     await which('gp')
   } catch (error) {
-    return false
+    if (error.message === 'not found: gp') {
+      return false
+    }
+    throw error
   }
   return true
 }
