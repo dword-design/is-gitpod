@@ -1,10 +1,13 @@
-import { spawn } from 'child-process-promise'
+import which from 'which'
 
 export default async () => {
   try {
-    await spawn('which', ['gp'])
+    await which('gp')
   } catch (error) {
-    return false
+    if (error.message === 'not found: gp') {
+      return false
+    }
+    throw error
   }
   return true
 }

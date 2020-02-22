@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-import api from './index'
+import api from '.'
 
 (async () => {
-  if (!await api()) {
+  if (!(await api())) {
     process.exit(1)
   }
 })()
