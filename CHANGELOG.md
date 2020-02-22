@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/dword-design/is-gitpod/compare/v1.0.9...v1.0.10) (2020-02-22)
+
+
+### Bug Fixes
+
+* adjust heading levels ([2e06ff3](https://github.com/dword-design/is-gitpod/commit/2e06ff30471717ad7736e080ce573e7e0e51a822))
+
 ## [1.0.9](https://github.com/dword-design/is-gitpod/compare/v1.0.8...v1.0.9) (2020-02-22)
 
 
