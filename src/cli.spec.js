@@ -18,8 +18,7 @@ export default {
     const filename = `gp${process.platform === 'win32' ? '.bat' : ''}`
     await outputFile(filename, '')
     await chmod(filename, '755')
-    console.log(getModifiedPath())
-    const { all } = await execa.command('is-gitpod', {
+    const { all } = await execa(require.resolve('./cli'), {
       env: { ...process.env, PATH: getModifiedPath() },
       all: true,
     })
@@ -28,7 +27,7 @@ export default {
   'outside gitpod': async () => {
     let all
     try {
-      await execa.command('is-gitpod', {
+      await execa(require.resolve('./cli'), {
         env: { ...process.env, PATH: getModifiedPath() },
         all: true,
       })
