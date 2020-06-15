@@ -14,10 +14,10 @@
   ],
   "scripts": {
     "commit": "base commit",
-    "depgraph": "base depgraph",
+    "dev": "base dev",
+    "lint": "base lint",
     "prepare": "base prepare",
     "prepublishOnly": "base prepublishOnly",
-    "release": "base release",
     "test": "base test"
   },
   "dependencies": {
@@ -29,5 +29,8 @@
     "execa": "^4.0.0",
     "fs-extra": "^9.0.0",
     "with-local-tmp-dir": "^2.2.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

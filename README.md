@@ -5,7 +5,6 @@
 <!-- BADGES/ -->
 [![NPM version](https://img.shields.io/npm/v/is-gitpod.svg)](https://npmjs.org/package/is-gitpod)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
-
 [![Build status](https://img.shields.io/github/workflow/status/dword-design/is-gitpod/build)](https://github.com/dword-design/is-gitpod/actions)
 [![Coverage status](https://img.shields.io/coveralls/dword-design/is-gitpod)](https://coveralls.io/github/dword-design/is-gitpod)
 [![Dependency status](https://img.shields.io/david/dword-design/is-gitpod)](https://david-dm.org/dword-design/is-gitpod)
@@ -19,7 +18,7 @@ Checks if we are in Gitpod
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
-# Install
+## Install
 
 ```bash
 # NPM
@@ -47,7 +46,7 @@ const result = await isGitpod()
 ```
 
 <!-- LICENSE/ -->
-# License
+## License
 
 Unless stated otherwise all works are:
 

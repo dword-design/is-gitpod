@@ -2,8 +2,9 @@
 
 import api from '.'
 
-(async () => {
+const run = async () => {
   if (!(await api())) {
     process.exit(1)
   }
-})()
+}
+run()
