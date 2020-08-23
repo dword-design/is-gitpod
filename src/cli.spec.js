@@ -19,8 +19,8 @@ export default {
       await outputFile(filename, '')
       await chmod(filename, '755')
       const output = await execa(require.resolve('./cli'), {
-        env: { ...process.env, PATH: getModifiedPath() },
         all: true,
+        env: { ...process.env, PATH: getModifiedPath() },
       })
       expect(output.all).toEqual('')
     }),
@@ -28,8 +28,8 @@ export default {
     let all
     try {
       await execa(require.resolve('./cli'), {
-        env: { ...process.env, PATH: getModifiedPath() },
         all: true,
+        env: { ...process.env, PATH: getModifiedPath() },
       })
     } catch (error) {
       all = error.all
