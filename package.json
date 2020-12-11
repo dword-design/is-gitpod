@@ -1,6 +1,6 @@
 {
   "name": "is-gitpod",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Checks if we are in Gitpod",
   "repository": "dword-design/is-gitpod",
   "license": "MIT",

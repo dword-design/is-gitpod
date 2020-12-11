@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/dword-design/is-gitpod/compare/v1.0.14...v1.0.15) (2020-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v5 ([72ed7fb](https://github.com/dword-design/is-gitpod/commit/72ed7fbc3252653502ff3ad39194388d1bc75716))
+
 ## [1.0.14](https://github.com/dword-design/is-gitpod/compare/v1.0.13...v1.0.14) (2020-12-02)
 
 
