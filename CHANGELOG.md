@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/dword-design/is-gitpod/compare/v1.0.15...v1.0.16) (2021-02-17)
+
+
+### Bug Fixes
+
+* upgrades ([f043258](https://github.com/dword-design/is-gitpod/commit/f0432587455fee39ead23bc997e9357ad060d3c3))
+
 ## [1.0.15](https://github.com/dword-design/is-gitpod/compare/v1.0.14...v1.0.15) (2020-12-11)
 
 
