@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-[![NPM version](https://img.shields.io/npm/v/is-gitpod.svg)](https://npmjs.org/package/is-gitpod)
+[![npm version](https://img.shields.io/npm/v/is-gitpod.svg)](https://npmjs.org/package/is-gitpod)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
 [![Build status](https://github.com/dword-design/is-gitpod/workflows/build/badge.svg)](https://github.com/dword-design/is-gitpod/actions)
 [![Coverage status](https://img.shields.io/coveralls/dword-design/is-gitpod)](https://coveralls.io/github/dword-design/is-gitpod)
@@ -41,7 +41,7 @@ Checks if we are in Gitpod
 ## Install
 
 ```bash
-# NPM
+# npm
 $ npm install is-gitpod
 
 # Yarn
