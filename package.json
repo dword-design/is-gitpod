@@ -1,7 +1,7 @@
 {
   "name": "is-gitpod",
   "version": "1.0.17",
-  "description": "Checks if we are in Gitpod",
+  "description": "Checks if we are in Gitpod.",
   "repository": "dword-design/is-gitpod",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
