@@ -34,7 +34,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-Checks if we are in Gitpod
+Checks if we are in Gitpod.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
