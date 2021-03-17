@@ -3,6 +3,7 @@
   "version": "1.0.18",
   "description": "Checks if we are in Gitpod.",
   "repository": "dword-design/is-gitpod",
+  "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "main": "dist/index.js",
