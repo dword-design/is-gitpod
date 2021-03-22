@@ -1,3 +1,11 @@
+## [1.0.20](https://github.com/dword-design/is-gitpod/compare/v1.0.19...v1.0.20) (2021-03-22)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#24](https://github.com/dword-design/is-gitpod/issues/24)) ([b20459b](https://github.com/dword-design/is-gitpod/commit/b20459bdfffa65d266705ed72a2a354d1cf036b8))
+* use extendEnv ([#25](https://github.com/dword-design/is-gitpod/issues/25)) ([9597054](https://github.com/dword-design/is-gitpod/commit/9597054c17b8a20ac659202a36f508c33c577ddc))
+
 ## [1.0.19](https://github.com/dword-design/is-gitpod/compare/v1.0.18...v1.0.19) (2021-03-17)
 
 
