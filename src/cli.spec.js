@@ -4,6 +4,7 @@ import { chmod, outputFile } from 'fs-extra'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
 const pathDelimiter = process.platform === 'win32' ? ';' : ':'
+
 const getModifiedPath = () =>
   [
     ...(process.env.PATH
@@ -18,6 +19,7 @@ export default {
       const filename = `gp${process.platform === 'win32' ? '.bat' : ''}`
       await outputFile(filename, '')
       await chmod(filename, '755')
+
       const output = await execa(require.resolve('./cli'), {
         all: true,
         env: { PATH: getModifiedPath() },
