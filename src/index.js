@@ -9,5 +9,6 @@ export default async () => {
     }
     throw error
   }
+
   return true
 }
