@@ -1,3 +1,10 @@
+## [1.0.23](https://github.com/dword-design/is-gitpod/compare/v1.0.22...v1.0.23) (2021-04-12)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#29](https://github.com/dword-design/is-gitpod/issues/29)) ([eefc629](https://github.com/dword-design/is-gitpod/commit/eefc6291dafc09da3c9b09518e5685c3db2eeae6))
+
 ## [1.0.22](https://github.com/dword-design/is-gitpod/compare/v1.0.21...v1.0.22) (2021-03-31)
 
 
