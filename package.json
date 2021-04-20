@@ -34,5 +34,7 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "homepage": "",
+  "keywords": []
 }
