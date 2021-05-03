@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/is-gitpod/compare/v1.0.24...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#37](https://github.com/dword-design/is-gitpod/issues/37)) ([354ef83](https://github.com/dword-design/is-gitpod/commit/354ef837b9463d94acdfba494280cf9a0cb140fc))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.24](https://github.com/dword-design/is-gitpod/compare/v1.0.23...v1.0.24) (2021-04-26)
 
 
