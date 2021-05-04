@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/is-gitpod/compare/v2.0.2...v2.0.3) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v10 ([#39](https://github.com/dword-design/is-gitpod/issues/39)) ([a8a84d7](https://github.com/dword-design/is-gitpod/commit/a8a84d7929590608395161ea2c7a6a3ca47bc14f))
+
 ## [2.0.2](https://github.com/dword-design/is-gitpod/compare/v2.0.1...v2.0.2) (2021-05-04)
 
 
