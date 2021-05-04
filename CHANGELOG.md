@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dword-design/is-gitpod/compare/v2.0.0...v2.0.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#38](https://github.com/dword-design/is-gitpod/issues/38)) ([0d506fd](https://github.com/dword-design/is-gitpod/commit/0d506fd0340971a1657bceb95df814e78c139581))
+
 # [2.0.0](https://github.com/dword-design/is-gitpod/compare/v1.0.24...v2.0.0) (2021-05-03)
 
 
