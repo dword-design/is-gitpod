@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/dword-design/is-gitpod/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v4 ([#40](https://github.com/dword-design/is-gitpod/issues/40)) ([72f931b](https://github.com/dword-design/is-gitpod/commit/72f931b18784a9f398ce1762569ecdf1b02f27c9))
+
 ## [2.0.1](https://github.com/dword-design/is-gitpod/compare/v2.0.0...v2.0.1) (2021-05-04)
 
 
