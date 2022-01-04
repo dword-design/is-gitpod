@@ -1,3 +1,10 @@
+## [2.0.8](https://github.com/dword-design/is-gitpod/compare/v2.0.7...v2.0.8) (2022-01-04)
+
+
+### Bug Fixes
+
+* update config files ([4e83a78](https://github.com/dword-design/is-gitpod/commit/4e83a784fef827827224bc8751569a11fb560535))
+
 ## [2.0.7](https://github.com/dword-design/is-gitpod/compare/v2.0.6...v2.0.7) (2021-07-20)
 
 
