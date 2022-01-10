@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-<p>
+  <p>
     <a href="https://npmjs.org/package/is-gitpod">
       <img
         src="https://img.shields.io/npm/v/is-gitpod.svg"
