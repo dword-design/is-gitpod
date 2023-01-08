@@ -1,7 +1,10 @@
 import { filter, join, split } from '@dword-design/functions'
-import execa from 'execa'
-import { chmod, outputFile } from 'fs-extra'
+import { execa } from 'execa'
+import fs from 'fs-extra'
+import { createRequire } from 'module'
 import withLocalTmpDir from 'with-local-tmp-dir'
+
+const _require = createRequire(import.meta.url)
 
 const pathDelimiter = process.platform === 'win32' ? ';' : ':'
 
@@ -17,10 +20,12 @@ export default {
   'inside gitpod': () =>
     withLocalTmpDir(async () => {
       const filename = `gp${process.platform === 'win32' ? '.bat' : ''}`
-      await outputFile(filename, '')
-      await chmod(filename, '755')
+      await Promise.all([
+        fs.outputFile(filename, '', { mode: '755' }),
+        fs.outputFile('package.json', JSON.stringify({ type: 'module' })),
+      ])
 
-      const output = await execa(require.resolve('./cli'), {
+      const output = await execa(_require.resolve('./cli'), {
         all: true,
         env: { PATH: getModifiedPath() },
       })
@@ -29,7 +34,7 @@ export default {
   'outside gitpod': async () => {
     let all
     try {
-      await execa(require.resolve('./cli'), {
+      await execa(_require.resolve('./cli'), {
         all: true,
         env: { PATH: getModifiedPath() },
       })
