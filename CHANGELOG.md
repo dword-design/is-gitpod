@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/is-gitpod/compare/v2.0.9...v3.0.0) (2023-01-08)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#95](https://github.com/dword-design/is-gitpod/issues/95)) ([8dc9707](https://github.com/dword-design/is-gitpod/commit/8dc9707686f9943d4a3a18b243414d6204658be7))
+
+
+### BREAKING CHANGES
+
+* drop node 12 support, move to esm
+
 ## [2.0.9](https://github.com/dword-design/is-gitpod/compare/v2.0.8...v2.0.9) (2022-01-12)
 
 
