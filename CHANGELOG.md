@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/dword-design/is-gitpod/compare/v3.0.0...v3.0.1) (2023-01-08)
+
+
+### Bug Fixes
+
+* trigger release ([2639df8](https://github.com/dword-design/is-gitpod/commit/2639df860894ff9a7946a238c7a1c28ee74cd730))
+
 # [3.0.0](https://github.com/dword-design/is-gitpod/compare/v2.0.9...v3.0.0) (2023-01-08)
 
 

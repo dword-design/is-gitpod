@@ -1,6 +1,6 @@
 {
   "name": "is-gitpod",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Checks if we are in Gitpod.",
   "repository": "dword-design/is-gitpod",
   "funding": "https://github.com/sponsors/dword-design",
