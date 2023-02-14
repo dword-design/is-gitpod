@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/dword-design/is-gitpod/compare/v3.0.1...v3.0.2) (2023-02-14)
+
+
+### Bug Fixes
+
+* update dependency execa to v7 ([#105](https://github.com/dword-design/is-gitpod/issues/105)) ([1e9efd4](https://github.com/dword-design/is-gitpod/commit/1e9efd47020b8877245de8f9e11a8c1b033a030c))
+
 ## [3.0.1](https://github.com/dword-design/is-gitpod/compare/v3.0.0...v3.0.1) (2023-01-08)
 
 
