@@ -6762,6 +6762,11 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+isexe@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/isexe/-/isexe-3.1.1.tgz#4a407e2bd78ddfb14bea0c27c6f7072dde775f0d"
+  integrity sha512-LpB/54B+/2J5hqQ7imZHfdU31OlgQqx7ZicVlkm9kzg9/w8GKLEcFfJl/t7DCEDueOyBAD6zCCwTO6Fzs0NoEQ==
+
 isobject@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
@@ -7526,14 +7531,7 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
-load-pkg@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/load-pkg/-/load-pkg-4.0.0.tgz#f80a29aec2f6d02aadde714099fda4eea1b611f1"
-  integrity sha512-xS6uYdbUzHbwO5bExhtM8RsU6Z/fVEfZE4uZpWQOwVygLSUfXz7J97nGzJfZ+FFCZc0Weabn/wA3y1k9Q7Y4mw==
-  dependencies:
-    find-pkg "^2.0.0"
-
-"load-pkg@npm:@dword-design/load-pkg":
+load-pkg@^4.0.0, "load-pkg@npm:@dword-design/load-pkg":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@dword-design/load-pkg/-/load-pkg-4.0.0.tgz#201f76adeb44c64ed22d789591ab740573fe0a5b"
   integrity sha512-lZxKRusgIqSg2y4jLzZzMPWyhrGPGke3YYmAxj4SoJeUGV4CmvYyhJkJnfA7Yaov7GMXZi64nlhx8D809VDazg==
@@ -11415,6 +11413,13 @@ which@^1.2.12, which@^1.2.14, which@^1.2.9:
   integrity sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==
   dependencies:
     isexe "^2.0.0"
+
+which@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/which/-/which-4.0.0.tgz#cd60b5e74503a3fbcfbf6cd6b4138a8bae644c1a"
+  integrity sha512-GlaYyEb07DPxYCKhKzplCWBJtvxZcZMrL+4UkrTSJHHPyZU4mYYTv3qaOe77H7EODLSSopAUFAc6W8U4yqvscg==
+  dependencies:
+    isexe "^3.1.1"
 
 wide-align@^1.1.5:
   version "1.1.5"
